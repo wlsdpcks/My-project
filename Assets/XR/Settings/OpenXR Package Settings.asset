@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c8f1ce8139888c4ab621f6b3c8bb558, type: 3}
   m_Name: MotionControllerFeaturePlugin Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Motion Controller Model
   version: 1.7.0
   featureIdInternal: com.microsoft.openxr.feature.controller
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c79c911b38743a649b1c1eddb5097202, type: 3}
   m_Name: HandTrackingFeaturePlugin Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Hand Tracking
   version: 1.7.0
   featureIdInternal: com.microsoft.openxr.feature.handtracking
@@ -335,6 +335,7 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
+  - {fileID: 6598622130475667710}
   - {fileID: -3861480049685333217}
   - {fileID: 6922464157359960828}
   - {fileID: -6253624305430100144}
@@ -347,10 +348,9 @@ MonoBehaviour:
   - {fileID: -6210341744495924247}
   - {fileID: -8946344243577425942}
   - {fileID: -2326853422424010285}
+  - {fileID: 8316723213449875564}
   - {fileID: 6311724181531846092}
   - {fileID: -956924910232090970}
-  - {fileID: 8316723213449875564}
-  - {fileID: 6598622130475667710}
   m_renderMode: 1
   m_depthSubmissionMode: 0
 --- !u!114 &-956924910232090970
@@ -651,7 +651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f8ec2975f18d5e479159feb34b4dc86, type: 3}
   m_Name: MixedRealityFeaturePlugin Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Mixed Reality Features
   version: 1.7.0
   featureIdInternal: com.microsoft.openxr.feature.hololens
